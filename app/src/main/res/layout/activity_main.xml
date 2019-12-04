@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="控件以及布局"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btn_widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="几个简单的控件使用"
+        android:textSize="12sp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="百分比布局"
+        android:textSize="12sp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btn_widget2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义头布局"
+        android:textSize="12sp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btn_widget3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义控件，头布局"
+        android:textSize="12sp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btn_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView、GrideView的使用"
+        android:textSize="12sp"
+        android:textAllCaps="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"/>
+
+
+
+
+</LinearLayout>
